@@ -1,0 +1,17 @@
+name: dart_async_cli
+description: A CLI app to fetch and display data from an API using Dart.
+version: 1.0.0
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  http: ^1.1.0        # For making HTTP requests
+  dotenv: ^4.1.0      # For loading environment variables
+
+dev_dependencies:
+  lints: ^3.0.0       # Recommended linter rules
+  test: ^1.24.0       # For writing and running tests
+
+executables:
+  dart_async_cli: main
+
